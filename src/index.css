@@ -1,0 +1,45 @@
+:root {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #e0ffe6;
+}
+
+a {
+  font-weight: 500;
+  height: 10px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: black;
+}
+
+img {
+  cursor: pointer;
+}
+
+label {
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+}
