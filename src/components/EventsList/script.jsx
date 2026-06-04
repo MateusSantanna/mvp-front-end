@@ -19,7 +19,7 @@ const EventList = ({ options, events, adminStatus }) => {
             description={event.description}
             date={event.date}
             time={event.time}
-            local={event.local}
+            local={event.location}
             activityType={event.activityType}
             status={event.status}
           />
