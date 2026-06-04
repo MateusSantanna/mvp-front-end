@@ -9,6 +9,7 @@ const AdminArea = ({ options, setOptions, adminStatus, events, setEvents }) => {
         );
         if (confirmDelete) {
           const updatedEvents = events.filter((event) => event.id !== id);
+
           setEvents(updatedEvents);
         }
       };

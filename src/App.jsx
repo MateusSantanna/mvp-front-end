@@ -8,6 +8,7 @@ function App() {
       title: "Trilha Saquarema",
       date: "24/07/2025",
       time: "15:00",
+      id: 0,
       location: "Saquarema",
       activityType: "Caminhada",
       image:
@@ -20,6 +21,7 @@ function App() {
       title: "Trilha de Jacarépiá",
       date: "29/06/2025",
       time: "12:00",
+      id: 1,
       location: "Saquarema",
       activityType: "Passeio",
       image:
