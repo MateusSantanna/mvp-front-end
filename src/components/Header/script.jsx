@@ -17,10 +17,11 @@ const Header = ({ setOptions, adminStatus }) => {
         </div>
 
         <div>
-          <a onClick={() => setOptions("Admin")}>Área Administrativa</a>
           {adminStatus === false ? (
             <button onClick={() => setOptions("Login")}>Login</button>
-          ) : null}
+          ) : (
+            <a onClick={() => setOptions("Admin")}>Área Administrativa</a>
+          )}
         </div>
       </HeaderConteiner>
     </>

@@ -45,7 +45,7 @@ const Login = ({ options, setOptions, userList, setAdminStatus }) => {
             <label>Senha</label>
             <div>
               <input
-                type="text"
+                type="password"
                 value={userPassword}
                 onChange={(e) => setUserPassword(e.target.value)}
               />
