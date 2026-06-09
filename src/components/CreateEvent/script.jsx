@@ -49,6 +49,13 @@ const CreateEvent = ({ options, setOptions, events, setEvents }) => {
     setEvents([...events, newEvent]);
     setError("");
     setOptions("Menu");
+    setTitle("");
+    setDate("");
+    setTime("");
+    setLocation("");
+    setActivityType("");
+    setImage("");
+    setDescription("");
   };
 
   return options === "Criar" ? (
