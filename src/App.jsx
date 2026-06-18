@@ -12,7 +12,7 @@ function App() {
       location: "Saquarema",
       activityType: "Caminhada",
       image:
-        "https://cdn.discordapp.com/attachments/1377001131149889709/1389699142808506429/83187953.png?ex=686591af&is=6864402f&hm=31224e454bc57f5dcf06ffc23d2129bed0de5ab54900bd7af6ac4d12ec1e52ab&",
+        "https://media-cdn.tripadvisor.com/media/photo-s/10/40/c3/dd/passeio-trilha-para-a.jpg",
       description: "Trilha com os Jovens em Saquarema",
       status: "Pendente",
     },
@@ -25,7 +25,7 @@ function App() {
       location: "Saquarema",
       activityType: "Passeio",
       image:
-        "https://cdn.discordapp.com/attachments/1377001131149889709/1389699230804873268/18683046.png?ex=686591c3&is=68644043&hm=17b3625efa595adbef1e21586b62a393cde7e45d42ae56156df9b65277fe4c7d&",
+        "https://s0.wklcdn.com/image_103/3092605/29248979/18683046Master.jpg",
       description: "Trilha com os Jovens em Saquarema",
       status: "Finalizado",
     },

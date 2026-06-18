@@ -6,10 +6,14 @@ export const LoginConteiner = styled.div`
   align-items: center;
   margin-top: 4rem;
 
+  form{
+ 
+  }
   label {
     margin-left: 3rem;
   }
+
   button {
-    margin: 2rem 2rem 0rem 0rem;
+    margin: 2rem 2rem 2rem 2rem;
   }
 `;
