@@ -19,6 +19,10 @@ const CreateEvent = ({ options, setOptions, events, setEvents }) => {
     }
   };
 
+  const reverseDate = (e) => {
+    return [...e].reverse().join("").replace(/-/g, "/");
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -37,7 +41,7 @@ const CreateEvent = ({ options, setOptions, events, setEvents }) => {
     const newEvent = {
       id: events.length,
       title,
-      date,
+      date: reverseDate(date),
       time,
       location,
       activityType,
